@@ -1,0 +1,32 @@
+.banner-hp {
+	background-color: black;
+    background-image: url('../../assets/images/banner-hp-bg.png');
+    background-position: 35vw 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 198px 167px;
+    padding-right: 0;
+}
+
+.logo {
+	width: 103px;
+	height: 40px;
+    margin-bottom: 153px;
+}
+
+@media (max-width: 991px) {
+    .banner-hp {
+        background-position: 0 -180px;
+        background-size: 110vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 200px 70px;
+    }
+
+    .logo {
+        margin-bottom: 80px;
+    }
+}

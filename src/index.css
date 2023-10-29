@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --primary-beaver: rgb(158,127,102);
-  --primary-cod-gray: rgb(17,17,17);
-  --secondary-mirage: rgb(23,25,43);
-  --secondary-ebony-clay: rgb(36,43,55);
-  --secondary-shuttle-gray: rgb(92,103,121);
+	--primary-beaver: rgb(158, 127, 102);
+	--primary-cod-gray: rgb(17, 17, 17);
+	--secondary-mirage: rgb(23, 25, 43);
+	--secondary-ebony-clay: rgb(36, 43, 55);
+	--secondary-shuttle-gray: rgb(92, 103, 121);
 }
 
 /* General */
 
 body {
-  margin: 0;
-  font-family: 'League Spartan', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: "League Spartan", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 * {
-  transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 /* Typography */
@@ -34,148 +35,148 @@ code {
 .heading-s,
 .body-1,
 .body-2 {
-  font-family: 'League Spartan', sans-serif;
+	font-family: "League Spartan", sans-serif;
 }
 
 .heading-xl {
-  font-size: 80px;
-  line-height: 80px;
-  letter-spacing: -1px;
-  font-weight: 300;
+	font-size: 80px;
+	line-height: 80px;
+	letter-spacing: -1px;
+	font-weight: 300;
 }
 
 .heading-l {
-  font-size: 48px;
-  line-height: 48px;
-  letter-spacing: -0.5px;
-  font-weight: 700;
+	font-size: 48px;
+	line-height: 48px;
+	letter-spacing: -0.5px;
+	font-weight: 700;
 }
 
 .heading-m {
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.25px;
-  font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: -0.25px;
+	font-weight: 700;
 }
 
 .heading-s {
-  font-size: 17px;
-  line-height: 28px;
-  letter-spacing: 2.5px;
-  font-weight: 600;
+	font-size: 17px;
+	line-height: 28px;
+	letter-spacing: 2.5px;
+	font-weight: 600;
 }
 
 .body-1 {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
 }
 
 .body-2 {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
 }
 
 /* Buttons */
 
 .btn-dine,
 .btn-dine-dark {
-  text-transform: uppercase;
-  padding: 24px 48px;
+	text-transform: uppercase;
+	padding: 24px 48px;
 }
 
 .btn-dine {
-  background-color: var(--primary-cod-gray);
-  color: rgb(255,255,255);
-  border: 1px solid var(--primary-cod-gray);
+	background-color: var(--primary-cod-gray);
+	color: rgb(255, 255, 255);
+	border: 1px solid var(--primary-cod-gray);
 }
 
 .btn-dine:hover {
-  background-color: transparent;
-  color: var(--primary-cod-gray);
-  border: 1px solid var(--primary-cod-gray);
+	background-color: transparent;
+	color: var(--primary-cod-gray);
+	border: 1px solid var(--primary-cod-gray);
 }
 
 .btn-dine-dark {
-  background-color: transparent;
-  color: rgb(255,255,255);
-  border: 1px solid rgb(255,255,255);
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
 }
 
 .btn-dine-dark:hover {
-  background-color: rgb(255,255,255);
-  color: var(--primary-cod-gray);
+	background-color: rgb(255, 255, 255);
+	color: var(--primary-cod-gray);
 }
 
 .btn-dine.inactive {
-  color: var(--primary-cod-gray);
+	color: var(--primary-cod-gray);
 }
 
 .btn-dine.inactive,
 .btn-dine-dark.inactive {
-  background-color: transparent;
-  opacity: 0.25;
+	background-color: transparent;
+	opacity: 0.25;
 }
 
 .btn-dine-dark.inactive:hover {
-  color: rgb(255,255,255);
+	color: rgb(255, 255, 255);
 }
 
 /* Form Elements */
 
 input,
 select {
-  padding-bottom: 15px;
-  padding-left: 16px;
-  border: none;
-  border-bottom: 1px solid rgb(142,142,142);
-  color: var(--primary-cod-gray);
+	padding-bottom: 15px;
+	padding-left: 16px;
+	border: none;
+	border-bottom: 1px solid rgb(142, 142, 142);
+	color: var(--primary-cod-gray);
 }
 
 input:disabled,
-input[type='text']::placeholder,
+input[type="text"]::placeholder,
 select:disabled {
-  opacity: 0.5 !important;
-  user-select: none;
+	opacity: 0.5 !important;
+	user-select: none;
 }
 
-input[type='text']:focus {
-  outline: none;
+input[type="text"]:focus {
+	outline: none;
 }
 
-input[type='text'].error {
-  color: rgb(181,73,73);
-  border-bottom: 1px solid rgb(181,73,73);
+input[type="text"].error {
+	color: rgb(181, 73, 73);
+	border-bottom: 1px solid rgb(181, 73, 73);
 }
 
 .input-error {
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: -0.125px;
-  color: rgb(181,73,73);
-  padding-left: 16px;
-  margin-top: 10px;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.125px;
+	color: rgb(181, 73, 73);
+	padding-left: 16px;
+	margin-top: 10px;
 }
 
 select {
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: transparent;
-  background-image: url('../public/images/arrow_down.svg');
-  background-size: 15px;
-  background-position: right center;
-  background-repeat: no-repeat;
-  padding-right: 20px;
-  outline:0px;
+	background-color: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: transparent;
+	background-image: url("../public/images/arrow_down.svg");
+	background-size: 15px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	outline: 0px;
 }
 
 select option {
-  background-color: rgb(255,255,255);
+	background-color: rgb(255, 255, 255);
 }
 
-input[type='number'] {
-  text-align: center;
+input[type="number"] {
+	text-align: center;
 }

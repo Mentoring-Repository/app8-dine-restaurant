@@ -1,8 +1,11 @@
+import BannerHP from "../Components/BannerHP/BannerHP";
+
 const Homepage = () => {
-    return (
-        <>
-        </>
-    )
-}
+	return (
+		<>
+			<BannerHP />
+		</>
+	);
+};
 
 export default Homepage;
