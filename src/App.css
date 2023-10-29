@@ -1,0 +1,9 @@
+.not-found-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.link-1 {
+  text-decoration: none;
+  color: var(--primary-beaver)
+}
