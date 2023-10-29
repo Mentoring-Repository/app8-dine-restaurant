@@ -148,6 +148,7 @@ input[type='text'].error {
   color: rgb(181,73,73);
   border-bottom: 1px solid rgb(181,73,73);
 }
+
 .input-error {
   font-size: 10px;
   font-weight: 500;
