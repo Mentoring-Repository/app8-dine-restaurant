@@ -5,8 +5,8 @@ const ImageText = () => {
   return (
     <div className="row img-text ">
       <div className="col-6">
-        {" "}
-        <img src={img} alt="" />{" "}
+   
+        <img src={img} alt="" />
       </div>
       <div className="col-6 d-flex justify-content-center align-items-center flex-column">
         <p className="heading-l">Enjoyable place for all the family</p>

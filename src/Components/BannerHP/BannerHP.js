@@ -1,7 +1,7 @@
 import "./BannerHP.css";
 import logo from "../../assets/images/dine.svg";
 
-const BannerHP = () => {
+const BannerHP = ({data}) => {
 	return (
 		<div className="banner-hp row">
 			<div className="col-12 col-lg-8 col-xl-5">
@@ -11,14 +11,12 @@ const BannerHP = () => {
 					alt=""
 				/>
 				<h1 className="heading-xl text-white">
-					Exquisite dining since 1989
+					{data.banner_home.title}
 				</h1>
 				<p className="body-1 text-white w-100 w-lg-75 mb-5">
-					Experience our seasonal menu in beautiful country
-					surroundings. Eat the freshest produce from the comfort of
-					our farmhouse.
+					{data.banner_home.desc}
 				</p>
-				<button className="btn-dine-dark">Book a table</button>
+				<button className="btn-dine-dark">{data.banner_home.button}</button>
 			</div>
 		</div>
 	);
