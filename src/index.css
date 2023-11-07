@@ -84,6 +84,11 @@ code {
 .btn-dine-dark {
 	text-transform: uppercase;
 	padding: 24px 48px;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 16px; /* 94.118% */
+	letter-spacing: 2.5px;
 }
 
 .btn-dine {
@@ -121,6 +126,34 @@ code {
 
 .btn-dine-dark.inactive:hover {
 	color: rgb(255, 255, 255);
+}
+
+.image-page {
+	box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+	z-index: 1;
+}
+
+.back-div {
+	position: absolute;
+	width: 895px;
+	height: 320px;
+	flex-shrink: 0;
+}
+
+.div-img-text {
+	border-radius: 0px 100px 0px 0px;
+	opacity: 0.0774;
+	background: #5c6779;
+	bottom: 90px;
+	left: 0;
+}
+
+.div-text-img {
+	border-radius: 100px 0px 0px 0px;
+	opacity: 0.0774;
+	background: #5c6779;
+	bottom: 60px;
+	right: 0;
 }
 
 /* Form Elements */

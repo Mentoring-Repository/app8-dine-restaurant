@@ -3,4 +3,10 @@
     top: 50%;
     right: -12%;
     transform: translateY(-50%);
+    z-index: 2;
 }
+
+.text-img {
+    padding: 0 10%;
+    margin-bottom: -60px;
+  }

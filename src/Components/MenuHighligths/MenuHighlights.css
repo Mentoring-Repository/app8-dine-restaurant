@@ -1,0 +1,25 @@
+.menu {
+	background-color: black;
+	min-height: 760px;
+	padding: 200px 10% 0;
+}
+
+.menu-img-container {
+	width: 168px;
+	height: 112px;
+	flex-shrink: 0;
+}
+
+.menu-img {
+	width: 128px;
+	height: 95px;
+	object-fit: cover;
+}
+
+.line {
+    margin-top: -50px;
+}
+
+.menu-item {
+    border-bottom: 1px solid rgba(255,255,255, 0.12);
+}

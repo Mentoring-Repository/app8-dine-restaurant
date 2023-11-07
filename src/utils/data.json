@@ -42,19 +42,22 @@
             "title": "Family Gathering",
             "desc": "We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.",
             "img": "/images/slides/img_1.png",
-            "button":"Book a table"
+            "button":"Book a table",
+            "link": "family gathering"
         },
         {
             "title": "Special Events",
             "desc": "Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark your special date with an unforgettable meal.",
             "img": "/images/slides/img_2.png",
-            "button":"Book a table"
+            "button":"Book a table",
+            "link": "special events"
         },
         {
             "title": "Social Events",
             "desc": "Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone.",
             "img": "/images/slides/img_3.png",
-            "button":"Book a table"
+            "button":"Book a table",
+            "link": "social events"
         }
     ],
 
@@ -64,7 +67,8 @@
     },
 
     "footer": {
-        "address": "Marthwaite, Sedbergh Cumbria",
+        "address": "Marthwaite, Sedbergh",
+        "country": "Cumbria",
         "phone": "+00 44 123 4567",
         "week_hours": "MON - FRI: 09:00 AM - 10:00 PM",
         "weekend_hours": "SAT - SUN: 09:00 AM - 11:30 PM"

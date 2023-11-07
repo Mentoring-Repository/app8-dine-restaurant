@@ -1,0 +1,49 @@
+.slider {
+	padding: 200px 10%;
+}
+
+.slider-img {
+	width: 540px;
+	height: 600px;
+	flex-shrink: 0;
+	object-fit: cover;
+    z-index: 10;
+}
+
+.slider-links {
+	color: #4c4c4c;
+	font-family: League Spartan;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 28px; /* 164.706% */
+	letter-spacing: 2.5px;
+	list-style: none;
+	text-transform: uppercase;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.slider-links:hover {
+	letter-spacing: 3px;
+	opacity: 0.7;
+}
+
+.slider-links-active {
+	opacity: 1;
+}
+
+.slider-line {
+    position: absolute;
+    left: -60%;
+    top: 50%;
+	width: 95px;
+	height: 1px;
+	flex-shrink: 0;
+	background: #9e7f66;
+    opacity: 0;
+    z-index: 0;
+}
+
+.slider-line-active {
+    opacity: 1;
+}
