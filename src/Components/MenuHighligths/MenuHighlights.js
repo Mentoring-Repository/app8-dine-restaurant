@@ -5,17 +5,17 @@ import line from "../../assets/images/line.png";
 const MenuHighlights = ({ data }) => {
 	return (
 		<section className="menu d-flex justify-content-center">
-			<div className="container row mx-auto">
-				<div className="col-6 d-flex justify-content-start align-items-start flex-column gap-4 pb-5">
+			<div className="container-fluid container-xl row mx-auto">
+				<div className="col-12 col-xl-6 d-flex justify-content-start align-items-start flex-column gap-4 pb-5">
 					<img
-						className="mb-5"
+						className="mx-auto mx-xl-0 mb-5"
 						src={headingSvg}
 						alt=""
 					/>
-					<p className="heading-l text-white w-80">{data.title}</p>
-					<p className="body-1 text-white w-80">{data.desc}</p>
+					<p className="heading-l text-white w-80 text-center text-xl-start">{data.title}</p>
+					<p className="body-1 text-white w-80 text-center text-xl-start">{data.desc}</p>
 				</div>
-				<div className="col-6 d-flex justify-content-start align-items-start flex-column gap-4 pt-5 mt-4">
+				<div className="col-12 col-xl-6 d-flex justify-content-start align-items-start flex-column gap-4 pb-5 pt-5 mt-4">
 					{data.menu_list.map((item) => (
 						<div key={item.title} className="menu-item d-flex">
 							<div className="menu-img-container">

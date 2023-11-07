@@ -4,7 +4,7 @@ import logo from "../../assets/images/dine.svg";
 const Footer = ({ data }) => {
 	return (
 		<footer className="footer">
-			<div className="container mx-auto d-flex flex-column flex-xl-row justify-content-between pe-5">
+			<div className="container-fluid container-xl mx-auto d-flex flex-column flex-xl-row justify-content-between pe-5">
 				<img
 					className="logo"
 					src={logo}

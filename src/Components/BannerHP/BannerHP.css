@@ -4,7 +4,8 @@
     background-position: 35vw 0;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 65px 10% 167px 10%;
+    padding-top: 65px;
+    padding-bottom: 167px;
     min-height: 820px;
 }
 
@@ -14,20 +15,18 @@
     margin-bottom: 153px;
 }
 
-.w-80 {
-    width: 90%;
-}
-
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .banner-hp {
-        background-position: 0 -180px;
-        background-size: 110vw;
+        background-image: url('../../assets/images/banner-sm-bg.png');
+        background-position: center -20%;
+        background-size: contain;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 200px 70px;
+        min-height: 100vh;
     }
 
     .logo {
