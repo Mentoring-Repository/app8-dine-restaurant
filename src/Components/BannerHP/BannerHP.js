@@ -17,9 +17,9 @@ const BannerHP = ({ data }) => {
 					<p className="body-1 text-white w-80 mx-auto mx-xl-0 mb-5">
 						{data.desc}
 					</p>
-					<button className="btn-dine-dark">
+					<a href="/booking" className="btn-dine-dark">
 						{data.button}
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>

@@ -37,7 +37,7 @@ const Slider = ({ data }) => {
 				<div className="col-12 col-xl-6 d-flex justify-content-center align-items-center align-items-xl-start flex-column p-3 ps-xl-5 pt-xl-5">
 					<p className="heading-l order-2 order-xl-1">{content.title}</p>
 					<p className="body-1 text-center text-xl-start mb-5 order-3 order-xl-2">{content.desc}</p>
-					<button className="btn-dine mb-5 order-4 order-xl-3">{content.button}</button>
+					<a href="/booking" className="btn-dine mb-5 order-4 order-xl-3">{content.button}</a>
 					<div className="order-1 order-xl-4 w-100">
 						<ul className="slider-list p-0">
 							{data.map((item, index) => (

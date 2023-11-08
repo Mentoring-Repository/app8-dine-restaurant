@@ -11,8 +11,13 @@
 }
 
 @media (max-width: 1200px) {
+    .text-img-svg {
+        right: -5%;
+    }
+
     .text-img {
-        margin-bottom: 60px;
+        margin-bottom: 0;
+        padding-bottom: 60px;
     }
 }
 
@@ -24,5 +29,11 @@
         right: 0%;
         transform: translateY(-50%);
         z-index: 2;
+    }
+}
+
+@media (max-width: 490px) {
+    .text-img-svg {
+        display: none;
     }
 }

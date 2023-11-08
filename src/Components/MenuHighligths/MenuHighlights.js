@@ -30,7 +30,7 @@ const MenuHighlights = ({ data }) => {
 									alt=""
 								/>
 							</div>
-							<div className="ms-4">
+							<div className="ms-md-4 text-center text-sm-start">
 								<h4 className="heading-m text-white">
 									{item.title}
 								</h4>
