@@ -1,0 +1,14 @@
+.cta {
+    background-image: url('../../assets/images/cta-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+.cta-mask {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    padding: 80px 10%;
+}

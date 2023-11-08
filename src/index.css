@@ -10,6 +10,28 @@
 
 /* General */
 
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--secondary-mirage);
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--primary-cod-gray);
+}
+
 body {
 	margin: 0;
 	font-family: "League Spartan", sans-serif;
@@ -24,7 +46,15 @@ code {
 }
 
 * {
-	transition: all 0.3s;
+	transition: all 0.3s ease;
+}
+
+section {
+	padding: 0 10%;
+}
+
+.w-80 {
+	width: 90%;
 }
 
 /* Typography */
@@ -84,6 +114,12 @@ code {
 .btn-dine-dark {
 	text-transform: uppercase;
 	padding: 24px 48px;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 16px; /* 94.118% */
+	letter-spacing: 2.5px;
+	text-decoration: none;
 }
 
 .btn-dine {
@@ -123,6 +159,65 @@ code {
 	color: rgb(255, 255, 255);
 }
 
+/* Other */
+
+.image-page {
+	box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+	z-index: 1;
+}
+
+.image-main {
+	height: 720px;
+	width: 540px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.back-div {
+	position: absolute;
+	width: 895px;
+	height: 320px;
+	flex-shrink: 0;
+}
+
+.div-img-text {
+	border-radius: 0px 100px 0px 0px;
+	opacity: 0.0774;
+	background: #5c6779;
+	bottom: 90px;
+	left: 0;
+}
+
+.div-text-img {
+	border-radius: 100px 0px 0px 0px;
+	opacity: 0.0774;
+	background: #5c6779;
+	bottom: 60px;
+	right: 0;
+}
+
+.div-reservations {
+	width: 950px;
+	height: 320px;
+	flex-shrink: 0;
+	border-radius: 0px 0px 100px 0px;
+	opacity: 0.0774;
+	background: #5c6779;
+	top: 0;
+	left: 0;
+}
+
+.div-slider {
+	width: 895px;
+	height: 320px;
+	flex-shrink: 0;
+	border-radius: 0px 100px 0px 0px;
+	opacity: 0.0774;
+	background: #5c6779;
+	top: 0;
+	left: -400px;
+}
+
 /* Form Elements */
 
 input,
@@ -155,8 +250,11 @@ input[type="text"].error {
 	font-weight: 500;
 	letter-spacing: -0.125px;
 	color: rgb(181, 73, 73);
-	padding-left: 16px;
-	margin-top: 10px;
+	margin-top: -50px !important;
+}
+
+.hidden {
+	display: none;
 }
 
 select {
@@ -170,7 +268,9 @@ select {
 	background-position: right center;
 	background-repeat: no-repeat;
 	padding-right: 20px;
+	padding-top: 1px;
 	outline: 0px;
+	width: 80px;
 }
 
 select option {
@@ -179,4 +279,135 @@ select option {
 
 input[type="number"] {
 	text-align: center;
+	width: 80px;
+}
+
+label {
+	color: #111;
+	font-family: League Spartan;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px; /* 140% */
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1439px) {
+	/* General */
+
+	section {
+		padding: 0 5%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.image-main {
+		height: 360px !important;
+		width: 100% !important;
+	}
+
+	.w-80 {
+		width: 100%;
+	}
+
+	.back-div {
+		position: absolute;
+		width: 500px;
+		height: 320px;
+		flex-shrink: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.heading-xl {
+		font-size: 48px;
+		width: 60%;
+		margin: 0 auto 20px;
+		text-align: center;
+	}
+
+	.heading-l {
+		width: 60%;
+		margin: 0 auto 30px;
+		text-align: center;
+	}
+
+	.div-text-img {
+		bottom: 0;
+	}
+
+	.div-img-text {
+		bottom: 150px;
+	}
+}
+
+@media (max-width: 576px) {
+	.heading-xl {
+		width: 90%;
+	}
+
+	.heading-l {
+		width: 80%;
+	}
+
+	input[type="number"], select {
+		width: 60px;
+	}
+}
+
+@media (max-width: 490px) {
+	section {
+		padding: 0 0;
+	}
+
+	.heading-xl {
+		width: 90%;
+	}
+
+	.heading-l {
+		width: 95%;
+	}
+
+	.back-div {
+		display: none;
+	}
+
+	label {
+		font-size: 16px;
+		line-height: 20px; /* 140% */
+	}
+
+	input[type="number"], select {
+		width: 50px;
+	}
+}
+
+@media (max-width: 390px) {
+	.heading-xl {
+		font-size: 32px;
+		font-weight: 300;
+		line-height: 40px; /* 125% */
+		letter-spacing: -0.4px;
+	}
+
+	.heading-l {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 40px; /* 125% */
+		letter-spacing: -0.4px;
+	}
+
+	.body-1 {
+		text-align: center;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px; /* 162.5% */
+	}
+
+	.btn-dine,
+	.btn-dine-dark {
+		padding: 24px 38px;
+		font-size: 15px;
+	}
 }

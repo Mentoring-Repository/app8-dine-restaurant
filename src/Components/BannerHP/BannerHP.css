@@ -4,8 +4,9 @@
     background-position: 35vw 0;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 65px 198px 167px;
-    padding-right: 0;
+    padding-top: 65px;
+    padding-bottom: 167px;
+    min-height: 820px;
 }
 
 .logo {
@@ -14,19 +15,37 @@
     margin-bottom: 153px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .banner-hp {
-        background-position: 0 -180px;
-        background-size: 110vw;
+        background-image: url('../../assets/images/banner-sm-bg.png');
+        background-position: center -20%;
+        background-size: contain;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 200px 70px;
+        min-height: 100vh;
     }
 
     .logo {
         margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-hp {
+        background-position: center -10%;
+        padding: 200px 70px;
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 490px) {
+    .banner-hp {
+        background-position: center -0;
+        padding: 200px 20px;
+        min-height: 100vh;
     }
 }

@@ -1,0 +1,7 @@
+.banner-p {
+    background-image: url('../../assets/images/reservation-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 167px;
+}

@@ -1,0 +1,81 @@
+{
+	"banner_home": {
+		"title": "Exquisite dining since 1989",
+		"desc": "Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.",
+		"button": "Book a table"
+	},
+
+	"image_text": {
+		"title": "Enjoyable place for all the family",
+		"desc": "Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour of the farm before your meal."
+	},
+
+    "text_image": {
+        "title": "The most locally sourced food",
+        "desc": "All our ingredients come directly from our farm or local fishery. So you can be sure that you’re eating the freshest, most sustainable food."
+    },
+
+    "menu_highlights": {
+        "title": "A few highlights from our menu",
+        "desc": "We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. Our menu is revamped every season.",
+        "menu_list": [
+            {
+                "title": "Seared Salmon Fillet",
+                "desc": "Our locally sourced salmon served with a refreshing buckwheat summer salad.",
+                "img": "/images/highlights/img_1.png"
+            },
+            {
+                "title": "Rosemary Filet Mignon",
+                "desc": "Our prime beef served to your taste with a delicious choice of seasonal sides.",
+                "img": "/images/highlights/img_2.png"
+            },
+            {
+                "title": "Summer Fruit Chocolate Mousse",
+                "desc": "Creamy mousse combined with summer fruits and dark chocolate shavings.",
+                "img": "/images/highlights/img_3.png"
+            }
+        ]
+    },
+
+    "slider": [
+        {
+            "title": "Family Gathering",
+            "desc": "We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.",
+            "img": "/images/slides/img_1.png",
+            "button":"Book a table",
+            "link": "family gathering"
+        },
+        {
+            "title": "Special Events",
+            "desc": "Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark your special date with an unforgettable meal.",
+            "img": "/images/slides/img_2.png",
+            "button":"Book a table",
+            "link": "special events"
+        },
+        {
+            "title": "Social Events",
+            "desc": "Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone.",
+            "img": "/images/slides/img_3.png",
+            "button":"Book a table",
+            "link": "social events"
+        }
+    ],
+
+    "cta": {
+        "text": "Ready to make a reservation?",
+        "button":"Book a table"
+    },
+
+    "footer": {
+        "address": "Marthwaite, Sedbergh",
+        "country": "Cumbria",
+        "phone": "+00 44 123 4567",
+        "week_hours": "MON - FRI: 09:00 AM - 10:00 PM",
+        "weekend_hours": "SAT - SUN: 09:00 AM - 11:30 PM"
+    },
+
+    "banner_page": {
+        "title": "Reservations",
+        "desc": "We can’t wait to host you. If you have any special requirements please feel free to call on the phone number below. We’ll be happy to accommodate you."
+    }
+}

@@ -1,0 +1,70 @@
+.form-container {
+	min-height: 320px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.reservation-svg {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	opacity: 1;
+}
+
+.form-wrapper {
+	position: absolute;
+	right: 0;
+	top: -320px;
+	background: #fff;
+	box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+	width: 540px;
+	height: 560px;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.form-wrapper div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.select-people {
+    color: #151515;
+    font-size: 20px;
+    font-weight: 700;
+	padding-left: 16px;
+	padding-right: 16px;
+	border: none;
+	border-bottom: 1px solid rgb(142, 142, 142);
+}
+
+.select-people .edit {
+	font-style: normal;
+	line-height: 24px; /* 120% */
+	letter-spacing: -0.25px;
+}
+
+.select-people .select-symbol {
+    cursor: pointer;
+}
+
+.select-people .select-symbol:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+    .form-container {
+        min-height: 520px;
+        display: flex;
+        justify-content: center;
+    }
+    .form-wrapper {
+        position: static;
+        margin: -160px auto 0;
+        width: 100%;
+        max-width: 540px;
+    }
+}
